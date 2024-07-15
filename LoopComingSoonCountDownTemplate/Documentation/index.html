@@ -1,0 +1,273 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>LOOP CountDown Documentation</title>
+	<meta name="description" content="">
+	<meta name="author" content="creative-era">
+	<meta name="copyright" content="creative-era">
+	<link rel="stylesheet" href="assets/css/font-awesome.css" media="all">
+	<link rel="icon" href="assets/images/favicon.png" type="images/png">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	<script>document.createElement('section');var duration='500',easing='easeInOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+	<style>
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/logo.png);}
+	</style>
+</head>
+<body class="documenter-project-itemname">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+			<li><a href="#css_files_and_structure" title="CSS Files and Structure">CSS Files and Structure</a></li>
+			<li><a href="#browser-support" title="Browser Support">Browser Support</a></li>
+			<li><a href="#javascript" title="JavaScript">JavaScript</a></li>
+			<li><a href="#php_files" title="PHP">PHP Code</a></li>
+			<li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+			<li><a href="#Demos" title="Demos">Demos</a></li>
+			<li><a href="#change_log" title="Change Logs">Change Logs</a></li>
+		</ul>
+		<div class="bottom-area">
+			<h6 class="email-link"><i class="fa fa-envelope"></i> <a href="mailto:design@creative-era.com">design@creative-era.com</a></h6>
+			<div class="menu_social">
+				<a href="https://www.facebook.com/creativeeradesignstudio" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/Creative_Era" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://plus.google.com/115541947299524173393" target="_blank"><i class="fa fa-google-plus"></i></a>
+				<a href="https://in.pinterest.com/creativeera11" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+				<a href="https://www.instagram.com/creative_era11/" target="_blank"><i class="fa fa-instagram"></i></a>
+			</div>
+			<div id="documenter_copyright">Copyright © 2018 Creative Era.</div>
+		</div>	
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>LOOP CountDown</h1>
+	<h2>Animated coming soon countdown template</h2>
+	<img src="assets/images/main_preview.jpg" alt="">
+	<hr>
+	<ul>
+	<li>Created: 15 March 2018</li>
+	<li>Latest update: 15 March 2018</li>
+	<li>By: <a href="http://creative-era.com/" target="_blank">www.creative-era.com</a></li>
+	<li>Email: <a href="mailto:design@creative-era.com">design@creative-era.com</a></li>
+	</ul>
+	<p>Thank you for purchasing Our Template. If you have any questions that are beyond the scope of this help file,<br> please feel free to email via our user page contact form <a href="http://themeforest.net/user/creative_era">here</a>. Thanks so much!</p>
+	</section>
+	
+	<section id="html_structure">
+	<div class="page-header"><h3>HTML Structure</h3><hr class="notop"></div>
+<p>
+	This Template is a fixed layout. All of the information within the main content area is nested within a div with an id of &quot;container main-wrapper&quot;. The general template structure is the same throughout the template. Here is the general structure.</p>
+<p>
+	<img alt="HTML Structure" src="assets/images/htmlcode.jpg"></p>
+
+<p>If you would like to change color of circle countdown OR Need to change Title of Days, Hours etc.. Please Open main.js file and find below code and edit it</p>
+<pre class="prettyprint lang-css linenums">
+bgColor: "rgba(22, 34, 0, 0.8)",
+fgColor: "#a4ff00",
+fgLast: "#bafc00",</pre>
+<section id="css_files_and_structure">
+	<div class="page-header"><h3>CSS Files and Structure</h3><hr class="notop"></div>
+<p>We have Used Many CSS but to customize the look of template you need to edit main.css</p>
+<p>If you want to change timer style you need to edit jquery.classycountdown.min.css</p>
+<p>The file is separated into sections using:</p>
+<pre class="prettyprint lang-css linenums">
+/*Countdown start here*/
+jquery.classycountdown.min.css for customize countdown style.
+/*Newsletter subscribe start here*/
+some code
+/*Footer start here*/
+some codeetc, etc.
+
+
+/*------------------------------------------------------------------
+[Layout]
+
+* body
+	+wrapper / #wrapper
+		+container-fluid / .container-fluid
+			-row / .row
+				 -logo / .brand
+				 
+				 -Title / .title
+				 -Sub title / .subtitle
+			countdown / .countdown
+   
+    + Footer / .footer
+
+	Content header   .title
+
+1. Body
+2. wrapper / #wrapper
+3. container-fluid / .container-fluid
+4. row / .row
+5. logo / .brand
+6. Title / .title
+7. second holder / .clock-wrap
+8. Sub title / .subtitle
+9. countdown / .countdown
+10. Footer / .footer
+11. heading / h2
+12. Content header
+-------------------------------------------------------------------*/
+</pre>
+<p>&nbsp;</p>
+</section>
+<section id="browser-support">
+	<div class="page-header">
+		<h3>Browser support</h3>
+		<hr class="notop">
+	</div>
+	<p>Our Template is Supporting Following Browsers.</p>
+	<div class="browser-row">
+		<div class="browser-block">
+			<img src="assets/images/chrome.svg" alt="">
+			<h6>Chrome</h6>
+		</div>
+		<div class="browser-block">
+			<img src="assets/images/mozilla.svg" alt="">
+			<h6>Firefox</h6>
+		</div>
+		<div class="browser-block">
+			<img src="assets/images/safari.svg" alt="">
+			<h6>Safari</h6>
+		</div>
+		<div class="browser-block">
+			<img src="assets/images/internet-explorer.svg" alt="">
+			<h6>Internet explorer</h6>
+		</div>
+		<div class="browser-block">
+			<img src="assets/images/edge.svg" alt="">
+			<h6>Edge</h6>
+		</div>
+	</div>
+</section>
+<section id="javascript">
+<div class="page-header"><h3>JavaScript</h3><hr class="notop"></div>
+<p>This Template imports Below Javascript files.</p>
+<ol>
+<li><strong>Jquery</strong> - Main Javascript Library</li>
+<li><strong>Modernizr</strong> -  JavaScript library that detects HTML5 and CSS3 features in the user’s browser.</li>
+<li><strong>ClassyCountdown - Countdown Script</strong></li>
+<li><strong>Backstretch</strong> - Full Size Background Image and Slideshow</li>
+<li><strong>Tubular</strong> - Full Size Background Video</li>
+<li><strong>Knob</strong></li>
+</ol>
+<ol>
+<li>To change the launch date, open iny index page and change the date in the data-end="yourvalue". e.g. 
+<pre class="prettyprint lang-js linenums">
+//enter the count down date using the format month day, year hours:minutes:seconds
+"&lt;div class="countdown" data-end="Your date and time"&gt;&lt;/div&gt;"
+</pre>
+</li>
+</ol>
+<p>&nbsp;</p>
+</section>
+
+<section id="php_files">
+<div class="page-header"><h3>PHP Code Explanation</h3><hr class="notop"></div>
+<p>To get subscribe message on your email id open any index file and edit below code</p>
+<pre class="prettyprint lang-js linenums">
+$emailTo  = 'creative.era.in@gmail.com'; // Change this email ID with your email ID
+</pre>
+</section>
+<section id="sources_and_credits">
+<div class="page-header"><h3>Sources and Credits</h3><hr class="notop"></div>
+<p>We&#39;ve used the following images, icons or other files as listed.</p>
+<ul>
+	<li><a href="https://jquery.org/" target="_blank">Jquery</a></li>
+	<li><a href="www.modernizr.com" target="_blank">Modernizr</a></li>
+	<li><a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a></li>
+	<li><a href="https://www.jqueryscript.net/demo/Slick-Circular-jQuery-Countdown-Plugin-Classy-Countdown/" target="_blank">ClassyCountdown</a></li>
+	<li><a href="http://fontawesome.io" target="_blank">Font Awesome</a></li>
+	<li><a href="https://www.flaticon.com/" target="_blank">Flaticon</a></li>
+	<li><a href="https://raw.githubusercontent.com/aterrien/jQuery-Knob/master/js/jquery.knob.js" target="_blank">Knob</a></li>
+	<li><a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">Backstretch</a></li>
+	<li><a href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" target="_blank">Open sans (Google fonts)</a></li>
+	<li><a href="https://fonts.googleapis.com/css?family=Roboto:400" target="_blank">Roboto (Google fonts)</a></li>
+	<li><a href="https://fonts.googleapis.com/css?family=Lato:100" target="_blank">Lato (Google fonts)</a></li>
+</ul>
+<hr />
+<p>Once again, thank you so much for purchasing this Template. As We said at the beginning, We&#39;d be glad to help you if you have any questions relating to this Template. If you have a more general question relating to the Template on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+<p><strong>Made with Love by <a href="http://creative-era.com" target="_blank">www.creative-era.com</a></strong></p>
+</section>
+
+<section id="Demos">
+	<div class="page-header"><h3>Demos</h3></div>
+	<hr class="notop">
+
+	<div class="clearfix">
+			<div class="_TAB_HOLDER_">
+				<div class="_TAB_ _ACTIVE_" data-id="default-variant">Default variant</div
+				><div class="_TAB_"  data-id="Photo-variant">Photo variant</div
+				><div class="_TAB_"  data-id="video-variant">Video variant</div>
+			</div>
+			<div class="TAB_DATA _ACTIVE_ clearfix _row" id="default-variant">
+				<div class="col-sm-6">
+					<a class="demo-block" href="http://creative-era.com/loop/index_white.html" target="_blank">
+						<img src="assets/images/light-dark-template/white.png" alt="">
+						<h5>White <img src="assets/images/foreign.svg" alt=""></h5>
+					</a>
+				</div>
+				<div class="col-sm-6">
+					<a class="demo-block" href="http://creative-era.com/loop/index_black.html" target="_blank">
+						<img src="assets/images/light-dark-template/black.png" alt="">
+						<h5>Black <img src="assets/images/foreign.svg" alt=""> </h5>
+					</a>
+				</div>
+			</div>
+			<div class="TAB_DATA clearfix _row" id="Photo-variant">
+				<div class="col-sm-6">
+					<a class="demo-block" href="http://creative-era.com/loop/index_Singleimage.html" target="_blank">
+						<img src="assets/images/image-variant-single.png" alt="">
+						<h5>Single Image <img src="assets/images/foreign.svg" alt=""> </h5>
+					</a>
+				</div>
+				<div class="col-sm-6">
+					<a class="demo-block" href="http://creative-era.com/loop/index_images.html" target="_blank">
+						<img src="assets/images/images-variant-slideshow.png" alt="">.
+						<h5>Slideshow Images <img src="assets/images/foreign.svg" alt=""></h5>
+					</a>
+				</div>
+			</div>
+			<div class="TAB_DATA clearfix _row" id="video-variant">
+				<div class="col-sm-6">
+					<a class="demo-block" href="http://creative-era.com/loop/index_localvideo.html" target="_blank">
+						<img src="assets/images/local-video.png" alt="">
+						<h5>Local Video <img src="assets/images/foreign.svg" alt=""> </h5>
+					</a>
+				</div>
+				<div class="col-sm-6">
+					<a class="demo-block" href="http://creative-era.com/loop/index_video.html" target="_blank">
+						<img src="assets/images/youtube-video.png" alt="">.
+						<h5>Youtube Video <img src="assets/images/foreign.svg" alt=""></h5>
+					</a>
+				</div>
+			</div>	
+			
+		</div>
+</section>
+
+<section id="change_log">
+<div class="page-header"><h3>Change Logs</h3><hr class="notop"></div>
+<p>Version 1.0 (15 March 2018)</p>
+<pre class="prettyprint">
+- Intial Realse
+</pre>
+</section>
+
+	</div>
+</body>
+</html>
