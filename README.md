@@ -21,7 +21,7 @@ Nos encontramos muy cerca del lanzamiento de < Codelium >, por ello realizaremos
 * 🔜
  ### Estructura del proyecto
  
-<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>[https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png](https://github.com/Arkon1911/coming-soon/blob/3a69eb13c75cd0a7ca4ce29654d29fdbbd8c5a95/LoopComingSoonCountDownTemplate/HTML/assets/images/Estructura%20archivos%20coming%20soon.png)</span><span>)</span>
+<span>![</span><span>Estructura del árbol de archivos que componen el proyecto</span><span>]</span><span>(</span><span>[https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png](https://github.com/Arkon1911/coming-soon/blob/3a69eb13c75cd0a7ca4ce29654d29fdbbd8c5a95/LoopComingSoonCountDownTemplate/HTML/assets/images/Estructura%20archivos%20coming%20soon.png)</span><span>)</span>
 
  ### Los lenguajes de desarrollo utilizados son:
 <p> <!-- GitHub README Stats -->
