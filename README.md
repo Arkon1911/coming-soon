@@ -19,6 +19,8 @@ Nos encontramos muy cerca del lanzamiento de < Codelium >, por ello realizaremos
   limitado
 * Redirigir a las audiencias hacia la red social, página web o producto.
 * 🔜
+ ### Estructura del proyecto
+ 
 
  ### Los lenguajes de desarrollo utilizados son:
 <p> <!-- GitHub README Stats -->
