@@ -833,14 +833,11 @@ transform:rotate(359deg)
 .fa-facebook:before {
 	content: "\f09a"
 }
-.fa-facebook:before {
-	content: "\f09a"
-}
 .fa-youtube:before {
-	content: "\f167"
+	content: "\f16a"
 }
 .fa-instagram:before {
-	content: "\f116d"
+	content: "\f16d"
 }
 .fa-pinterest:before {
 	content: "\f0d2"
@@ -850,6 +847,9 @@ transform:rotate(359deg)
 }
 .fa-linkedin:before {
     content: "\f0e1";
+}
+.fa-globe:before{
+	content:"\f0ac"
 }
 .fa-spinner:before {
     content: "\f110";
