@@ -833,6 +833,15 @@ transform:rotate(359deg)
 .fa-facebook:before {
 	content: "\f09a"
 }
+.fa-facebook:before {
+	content: "\f09a"
+}
+.fa-youtube:before {
+	content: "\f167"
+}
+.fa-instagram:before {
+	content: "\f116d"
+}
 .fa-pinterest:before {
 	content: "\f0d2"
 }
